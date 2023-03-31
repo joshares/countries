@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-size: cover;
+  }
+  .dark {
+    background: hsl(207, 26%, 17%);
+  }
+}
