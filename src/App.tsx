@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='home' element={<Home/>}/>
+        <Route path='countries' element={<Home/>}/>
         <Route path='country/:id' element={<SinglePage/>}/>
       </Routes>
     </Router>
