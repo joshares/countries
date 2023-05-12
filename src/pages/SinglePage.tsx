@@ -36,7 +36,7 @@ export const SinglePage = () => {
 
   return (
     <main className='  text-xl p-6 font-nunito'>
-     <Link to='/countries' className='my-5 p-2 shadow-xl flex w-max justify-center items-center gap-3 rounded-lg dark:bg-darkColor dark:text-darkTextColor '>
+     <Link to='/' className='my-5 p-2 shadow-xl flex w-max justify-center items-center gap-3 rounded-lg dark:bg-darkColor dark:text-darkTextColor '>
       <HiOutlineArrowLeft/>
       <p>back</p>
      </Link>
