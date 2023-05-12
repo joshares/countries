@@ -10,8 +10,8 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='countries' element={<Home/>}/>
-        <Route path='country/:id' element={<SinglePage/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/:id' element={<SinglePage/>}/>
       </Routes>
     </Router>
   );
